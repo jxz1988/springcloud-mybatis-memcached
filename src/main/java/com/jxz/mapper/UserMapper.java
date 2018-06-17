@@ -1,5 +1,6 @@
 package com.jxz.mapper;
 
+import com.github.pagehelper.Page;
 import com.jxz.domain.User;
 import com.jxz.domain.example.UserExample;
 
@@ -94,4 +95,5 @@ public interface UserMapper {
      * @mbg.generated Fri Jun 15 17:57:59 CST 2018
      */
     int updateByPrimaryKey(User record);
+    
 }
